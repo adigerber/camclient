@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation 'org.apache.httpcomponents:fluent-hc:4.5.11'
+    implementation 'com.google.guava:guava:27.0.1-jre'
+
+    testImplementation 'org.nanohttpd:nanohttpd:2.3.1'
+}
+

@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+dependencies {
+    implementation 'com.beust:jcommander:1.78'
+    implementation project(":camclient-core")
+    implementation project(":camclient-dvr3")
+}
+
+mainClassName = 'com.adigerber.camclient.cli.Main'

@@ -1,0 +1,4 @@
+rootProject.name = 'camclient'
+include 'camclient-core'
+include 'camclient-dvr3'
+include 'camclient-cli'
